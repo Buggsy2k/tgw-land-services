@@ -2,5 +2,7 @@
 window.TGW_CONTACT = Object.freeze({
   email: 'tgwlandservice@gmail.com',
   phone: '(978) 604-4915',
-  address: 'Ravenna, TX 75476'
+  address: 'Ravenna, TX 75476',
+  // Cloudflare Worker that sends the email. Empty disables it and uses the email app only.
+  emailEndpoint: '/api/contact'
 });
