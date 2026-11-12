@@ -1,0 +1,862 @@
+[
+  {
+    "id": "project-001",
+    "source": "Fence pics/65411046828__0B172781-65E7-42D2-A384-D1C9D479B727.jpeg",
+    "category": "Fencing",
+    "src": "assets/images/project-001.webp",
+    "thumb": "assets/images/project-001-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Fencing — TGW project photograph 1"
+  },
+  {
+    "id": "project-002",
+    "source": "Fence pics/IMG_0036.jpeg",
+    "category": "Fencing",
+    "src": "assets/images/project-002.webp",
+    "thumb": "assets/images/project-002-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Fencing — TGW project photograph 2"
+  },
+  {
+    "id": "project-003",
+    "source": "Fence pics/IMG_0037.jpeg",
+    "category": "Fencing",
+    "src": "assets/images/project-003.webp",
+    "thumb": "assets/images/project-003-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Fencing — TGW project photograph 3"
+  },
+  {
+    "id": "project-004",
+    "source": "Fence pics/IMG_0039.jpeg",
+    "category": "Fencing",
+    "src": "assets/images/project-004.webp",
+    "thumb": "assets/images/project-004-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Fencing — TGW project photograph 4"
+  },
+  {
+    "id": "project-005",
+    "source": "Fence pics/IMG_6595.jpeg",
+    "category": "Fencing",
+    "src": "assets/images/project-005.webp",
+    "thumb": "assets/images/project-005-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Fencing — TGW project photograph 5"
+  },
+  {
+    "id": "project-006",
+    "source": "Fence pics/IMG_6596.jpeg",
+    "category": "Fencing",
+    "src": "assets/images/project-006.webp",
+    "thumb": "assets/images/project-006-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Fencing — TGW project photograph 6"
+  },
+  {
+    "id": "project-007",
+    "source": "Fence pics/IMG_6597.jpeg",
+    "category": "Fencing",
+    "src": "assets/images/project-007.webp",
+    "thumb": "assets/images/project-007-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Fencing — TGW project photograph 7"
+  },
+  {
+    "id": "project-008",
+    "source": "Fence pics/IMG_7606.jpeg",
+    "category": "Fencing",
+    "src": "assets/images/project-008.webp",
+    "thumb": "assets/images/project-008-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Fencing — TGW project photograph 8"
+  },
+  {
+    "id": "project-009",
+    "source": "Fence pics/IMG_7607.jpeg",
+    "category": "Fencing",
+    "src": "assets/images/project-009.webp",
+    "thumb": "assets/images/project-009-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Fencing — TGW project photograph 9"
+  },
+  {
+    "id": "project-010",
+    "source": "Mulching pics/57885467289__4D881371-F3C2-486B-96EB-26254227EF99.JPG",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-010.webp",
+    "thumb": "assets/images/project-010-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Clearing & Mulching — TGW project photograph 10"
+  },
+  {
+    "id": "project-011",
+    "source": "Mulching pics/IMG_0169.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-011.webp",
+    "thumb": "assets/images/project-011-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Clearing & Mulching — TGW project photograph 11"
+  },
+  {
+    "id": "project-012",
+    "source": "Mulching pics/IMG_0177.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-012.webp",
+    "thumb": "assets/images/project-012-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Clearing & Mulching — TGW project photograph 12"
+  },
+  {
+    "id": "project-013",
+    "source": "Mulching pics/IMG_0178.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-013.webp",
+    "thumb": "assets/images/project-013-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Clearing & Mulching — TGW project photograph 13"
+  },
+  {
+    "id": "project-014",
+    "source": "Mulching pics/IMG_0205.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-014.webp",
+    "thumb": "assets/images/project-014-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Clearing & Mulching — TGW project photograph 14"
+  },
+  {
+    "id": "project-015",
+    "source": "Mulching pics/IMG_0206.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-015.webp",
+    "thumb": "assets/images/project-015-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Clearing & Mulching — TGW project photograph 15"
+  },
+  {
+    "id": "project-016",
+    "source": "Mulching pics/IMG_0211.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-016.webp",
+    "thumb": "assets/images/project-016-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Clearing & Mulching — TGW project photograph 16"
+  },
+  {
+    "id": "project-017",
+    "source": "Mulching pics/IMG_0214.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-017.webp",
+    "thumb": "assets/images/project-017-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Clearing & Mulching — TGW project photograph 17"
+  },
+  {
+    "id": "project-018",
+    "source": "Mulching pics/IMG_0257.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-018.webp",
+    "thumb": "assets/images/project-018-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Clearing & Mulching — TGW project photograph 18"
+  },
+  {
+    "id": "project-019",
+    "source": "Mulching pics/IMG_0404.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-019.webp",
+    "thumb": "assets/images/project-019-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Clearing & Mulching — TGW project photograph 19"
+  },
+  {
+    "id": "project-020",
+    "source": "Mulching pics/IMG_0405.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-020.webp",
+    "thumb": "assets/images/project-020-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Clearing & Mulching — TGW project photograph 20"
+  },
+  {
+    "id": "project-021",
+    "source": "Mulching pics/IMG_0414.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-021.webp",
+    "thumb": "assets/images/project-021-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Clearing & Mulching — TGW project photograph 21"
+  },
+  {
+    "id": "project-022",
+    "source": "Mulching pics/IMG_0415.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-022.webp",
+    "thumb": "assets/images/project-022-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Clearing & Mulching — TGW project photograph 22"
+  },
+  {
+    "id": "project-023",
+    "source": "Mulching pics/IMG_3956.JPG",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-023.webp",
+    "thumb": "assets/images/project-023-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Clearing & Mulching — TGW project photograph 23"
+  },
+  {
+    "id": "project-024",
+    "source": "Mulching pics/IMG_4168.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-024.webp",
+    "thumb": "assets/images/project-024-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Clearing & Mulching — TGW project photograph 24"
+  },
+  {
+    "id": "project-025",
+    "source": "Mulching pics/IMG_4175.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-025.webp",
+    "thumb": "assets/images/project-025-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Clearing & Mulching — TGW project photograph 25"
+  },
+  {
+    "id": "project-026",
+    "source": "Mulching pics/IMG_4188.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-026.webp",
+    "thumb": "assets/images/project-026-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Clearing & Mulching — TGW project photograph 26"
+  },
+  {
+    "id": "project-027",
+    "source": "Mulching pics/IMG_4390.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-027.webp",
+    "thumb": "assets/images/project-027-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Clearing & Mulching — TGW project photograph 27"
+  },
+  {
+    "id": "project-028",
+    "source": "Mulching pics/IMG_4393.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-028.webp",
+    "thumb": "assets/images/project-028-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Clearing & Mulching — TGW project photograph 28"
+  },
+  {
+    "id": "project-029",
+    "source": "Mulching pics/IMG_5724.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-029.webp",
+    "thumb": "assets/images/project-029-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Clearing & Mulching — TGW project photograph 29"
+  },
+  {
+    "id": "project-030",
+    "source": "Mulching pics/IMG_5736.jpeg",
+    "category": "Clearing & Mulching",
+    "src": "assets/images/project-030.webp",
+    "thumb": "assets/images/project-030-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Clearing & Mulching — TGW project photograph 30"
+  },
+  {
+    "id": "project-031",
+    "source": "Random pics 1/IMG_1697.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-031.webp",
+    "thumb": "assets/images/project-031-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Project Work — TGW project photograph 31"
+  },
+  {
+    "id": "project-032",
+    "source": "Random pics 1/IMG_1830.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-032.webp",
+    "thumb": "assets/images/project-032-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 32"
+  },
+  {
+    "id": "project-033",
+    "source": "Random pics 1/IMG_1843.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-033.webp",
+    "thumb": "assets/images/project-033-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 33"
+  },
+  {
+    "id": "project-034",
+    "source": "Random pics 1/IMG_1858.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-034.webp",
+    "thumb": "assets/images/project-034-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 34"
+  },
+  {
+    "id": "project-035",
+    "source": "Random pics 1/IMG_1889.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-035.webp",
+    "thumb": "assets/images/project-035-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 35"
+  },
+  {
+    "id": "project-036",
+    "source": "Random pics 1/IMG_1925.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-036.webp",
+    "thumb": "assets/images/project-036-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 36"
+  },
+  {
+    "id": "project-037",
+    "source": "Random pics 1/IMG_1933.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-037.webp",
+    "thumb": "assets/images/project-037-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 37"
+  },
+  {
+    "id": "project-038",
+    "source": "Random pics 1/IMG_2391.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-038.webp",
+    "thumb": "assets/images/project-038-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 38"
+  },
+  {
+    "id": "project-039",
+    "source": "Random pics 1/IMG_2404.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-039.webp",
+    "thumb": "assets/images/project-039-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 39"
+  },
+  {
+    "id": "project-040",
+    "source": "Random pics 1/IMG_2413.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-040.webp",
+    "thumb": "assets/images/project-040-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 40"
+  },
+  {
+    "id": "project-041",
+    "source": "Random pics 1/IMG_2430.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-041.webp",
+    "thumb": "assets/images/project-041-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 41"
+  },
+  {
+    "id": "project-042",
+    "source": "Random pics 1/IMG_2620.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-042.webp",
+    "thumb": "assets/images/project-042-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Project Work — TGW project photograph 42"
+  },
+  {
+    "id": "project-043",
+    "source": "Random pics 1/IMG_2651.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-043.webp",
+    "thumb": "assets/images/project-043-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Project Work — TGW project photograph 43"
+  },
+  {
+    "id": "project-044",
+    "source": "Random pics 1/IMG_2672.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-044.webp",
+    "thumb": "assets/images/project-044-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 44"
+  },
+  {
+    "id": "project-045",
+    "source": "Random pics 1/IMG_2673.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-045.webp",
+    "thumb": "assets/images/project-045-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 45"
+  },
+  {
+    "id": "project-046",
+    "source": "Random pics 1/IMG_2713.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-046.webp",
+    "thumb": "assets/images/project-046-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Project Work — TGW project photograph 46"
+  },
+  {
+    "id": "project-047",
+    "source": "Random pics 1/IMG_2876.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-047.webp",
+    "thumb": "assets/images/project-047-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 47"
+  },
+  {
+    "id": "project-048",
+    "source": "Random pics 1/IMG_2877.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-048.webp",
+    "thumb": "assets/images/project-048-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 48"
+  },
+  {
+    "id": "project-049",
+    "source": "Random pics 1/IMG_3565.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-049.webp",
+    "thumb": "assets/images/project-049-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 49"
+  },
+  {
+    "id": "project-050",
+    "source": "Random pics 1/IMG_3574.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-050.webp",
+    "thumb": "assets/images/project-050-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 50"
+  },
+  {
+    "id": "project-051",
+    "source": "Random pics 1/IMG_3679.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-051.webp",
+    "thumb": "assets/images/project-051-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 51"
+  },
+  {
+    "id": "project-052",
+    "source": "Random pics 1/IMG_3691.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-052.webp",
+    "thumb": "assets/images/project-052-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 52"
+  },
+  {
+    "id": "project-053",
+    "source": "Random pics 1/IMG_3694.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-053.webp",
+    "thumb": "assets/images/project-053-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 53"
+  },
+  {
+    "id": "project-054",
+    "source": "Random pics 1/IMG_4182.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-054.webp",
+    "thumb": "assets/images/project-054-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Project Work — TGW project photograph 54"
+  },
+  {
+    "id": "project-055",
+    "source": "Random pics 1/IMG_4187.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-055.webp",
+    "thumb": "assets/images/project-055-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Project Work — TGW project photograph 55"
+  },
+  {
+    "id": "project-056",
+    "source": "Random pics 2/IMG_0932.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-056.webp",
+    "thumb": "assets/images/project-056-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 56"
+  },
+  {
+    "id": "project-057",
+    "source": "Random pics 2/IMG_0935.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-057.webp",
+    "thumb": "assets/images/project-057-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 57"
+  },
+  {
+    "id": "project-058",
+    "source": "Random pics 2/IMG_1383.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-058.webp",
+    "thumb": "assets/images/project-058-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 58"
+  },
+  {
+    "id": "project-059",
+    "source": "Random pics 2/IMG_1429.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-059.webp",
+    "thumb": "assets/images/project-059-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 59"
+  },
+  {
+    "id": "project-060",
+    "source": "Random pics 2/IMG_4504.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-060.webp",
+    "thumb": "assets/images/project-060-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Project Work — TGW project photograph 60"
+  },
+  {
+    "id": "project-061",
+    "source": "Random pics 2/IMG_4505.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-061.webp",
+    "thumb": "assets/images/project-061-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Project Work — TGW project photograph 61"
+  },
+  {
+    "id": "project-062",
+    "source": "Random pics 2/IMG_4506.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-062.webp",
+    "thumb": "assets/images/project-062-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Project Work — TGW project photograph 62"
+  },
+  {
+    "id": "project-063",
+    "source": "Random pics 2/IMG_5056.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-063.webp",
+    "thumb": "assets/images/project-063-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Project Work — TGW project photograph 63"
+  },
+  {
+    "id": "project-064",
+    "source": "Random pics 2/IMG_5059.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-064.webp",
+    "thumb": "assets/images/project-064-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Project Work — TGW project photograph 64"
+  },
+  {
+    "id": "project-065",
+    "source": "Random pics 2/IMG_5070.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-065.webp",
+    "thumb": "assets/images/project-065-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Project Work — TGW project photograph 65"
+  },
+  {
+    "id": "project-066",
+    "source": "Random pics 2/IMG_5447.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-066.webp",
+    "thumb": "assets/images/project-066-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Project Work — TGW project photograph 66"
+  },
+  {
+    "id": "project-067",
+    "source": "Random pics 2/IMG_5449.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-067.webp",
+    "thumb": "assets/images/project-067-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Project Work — TGW project photograph 67"
+  },
+  {
+    "id": "project-068",
+    "source": "Random pics 2/IMG_5967.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-068.webp",
+    "thumb": "assets/images/project-068-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Project Work — TGW project photograph 68"
+  },
+  {
+    "id": "project-069",
+    "source": "Random pics 2/IMG_6232.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-069.webp",
+    "thumb": "assets/images/project-069-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Project Work — TGW project photograph 69"
+  },
+  {
+    "id": "project-070",
+    "source": "Random pics 2/IMG_6233.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-070.webp",
+    "thumb": "assets/images/project-070-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Project Work — TGW project photograph 70"
+  },
+  {
+    "id": "project-071",
+    "source": "Random pics 2/IMG_7179.JPG",
+    "category": "Project Work",
+    "src": "assets/images/project-071.webp",
+    "thumb": "assets/images/project-071-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Project Work — TGW project photograph 71"
+  },
+  {
+    "id": "project-072",
+    "source": "Random pics 2/IMG_7182.JPG",
+    "category": "Project Work",
+    "src": "assets/images/project-072.webp",
+    "thumb": "assets/images/project-072-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Project Work — TGW project photograph 72"
+  },
+  {
+    "id": "project-073",
+    "source": "Random pics 2/IMG_7183.JPG",
+    "category": "Project Work",
+    "src": "assets/images/project-073.webp",
+    "thumb": "assets/images/project-073-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Project Work — TGW project photograph 73"
+  },
+  {
+    "id": "project-074",
+    "source": "Random pics 2/IMG_8022.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-074.webp",
+    "thumb": "assets/images/project-074-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Project Work — TGW project photograph 74"
+  },
+  {
+    "id": "project-075",
+    "source": "Random pics 2/IMG_8024.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-075.webp",
+    "thumb": "assets/images/project-075-thumb.webp",
+    "width": 480,
+    "height": 640,
+    "alt": "Project Work — TGW project photograph 75"
+  },
+  {
+    "id": "project-076",
+    "source": "Random pics 2/IMG_8039.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-076.webp",
+    "thumb": "assets/images/project-076-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 76"
+  },
+  {
+    "id": "project-077",
+    "source": "Random pics 2/IMG_8042.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-077.webp",
+    "thumb": "assets/images/project-077-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 77"
+  },
+  {
+    "id": "project-078",
+    "source": "Random pics 2/IMG_8053.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-078.webp",
+    "thumb": "assets/images/project-078-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Project Work — TGW project photograph 78"
+  },
+  {
+    "id": "project-079",
+    "source": "Random pics 2/IMG_8055.jpeg",
+    "category": "Project Work",
+    "src": "assets/images/project-079.webp",
+    "thumb": "assets/images/project-079-thumb.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Project Work — TGW project photograph 79"
+  },
+  {
+    "id": "project-080",
+    "source": "Random pics 2/IMG_8105.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-080.webp",
+    "thumb": "assets/images/project-080-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 80"
+  },
+  {
+    "id": "project-081",
+    "source": "Random pics 2/IMG_8108.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-081.webp",
+    "thumb": "assets/images/project-081-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 81"
+  },
+  {
+    "id": "project-082",
+    "source": "Random pics 2/IMG_8113.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-082.webp",
+    "thumb": "assets/images/project-082-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 82"
+  },
+  {
+    "id": "project-083",
+    "source": "Random pics 2/IMG_8369.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-083.webp",
+    "thumb": "assets/images/project-083-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 83"
+  },
+  {
+    "id": "project-084",
+    "source": "Random pics 2/IMG_8389.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-084.webp",
+    "thumb": "assets/images/project-084-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 84"
+  },
+  {
+    "id": "project-085",
+    "source": "Random pics 2/IMG_8397.PNG",
+    "category": "Project Work",
+    "src": "assets/images/project-085.webp",
+    "thumb": "assets/images/project-085-thumb.webp",
+    "width": 640,
+    "height": 360,
+    "alt": "Project Work — TGW project photograph 85"
+  },
+  {
+    "id": "project-086",
+    "source": "mainpage.png",
+    "category": "Project Work",
+    "src": "assets/images/project-086.webp",
+    "thumb": "assets/images/project-086-thumb.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Project Work — TGW project photograph 86"
+  }
+]

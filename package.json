@@ -1,0 +1,17 @@
+{
+  "name": "tgw-land-services",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "start": "node tools/serve.mjs",
+    "test": "node tools/test.mjs",
+    "deploy": "node tools/build.mjs && node tools/deploy.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.56.1",
+    "sharp": "^0.35.5"
+  }
+}
