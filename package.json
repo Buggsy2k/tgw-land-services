@@ -7,7 +7,8 @@
     "build": "node tools/build.mjs",
     "start": "node tools/serve.mjs",
     "test": "node tools/test.mjs",
-    "deploy": "node tools/build.mjs && node tools/deploy.mjs"
+    "deploy": "node tools/build.mjs && node tools/deploy.mjs",
+    "publish": "node tools/publish.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
