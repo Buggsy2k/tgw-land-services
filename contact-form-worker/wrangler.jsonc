@@ -1,0 +1,16 @@
+{
+  "name": "contact-form",
+  "account_id": "d6ee058c8555d18e68f6b47ba19c95a6",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-12",
+  "send_email": [
+    {
+      "name": "EMAIL",
+      "destination_address": "tgwlandservice@gmail.com"
+    }
+  ],
+  "routes": [
+    { "pattern": "tgwlandservices.com/api/contact*", "zone_name": "tgwlandservices.com" },
+    { "pattern": "www.tgwlandservices.com/api/contact*", "zone_name": "tgwlandservices.com" }
+  ]
+}
