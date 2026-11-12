@@ -4,6 +4,17 @@ const status = document.querySelector('#form-status');
 const draft = document.querySelector('#draft');
 const recipient = window.TGW_CONTACT?.email?.trim();
 const endpoint = window.TGW_CONTACT?.emailEndpoint?.trim();
+const turnstileSiteKey = window.TGW_CONTACT?.turnstileSiteKey?.trim();
+let turnstileWidgetId = null;
+if (endpoint && turnstileSiteKey) {
+  const ready = setInterval(() => {
+    if (!window.turnstile) return;
+    clearInterval(ready);
+    const host = document.querySelector('#turnstile-widget');
+    if (host) turnstileWidgetId = window.turnstile.render(host, { sitekey: turnstileSiteKey });
+  }, 150);
+  setTimeout(() => clearInterval(ready), 10000);
+}
 if (recipient && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(recipient)) {
   launch.disabled = false;
   document.querySelector('#email-notice').textContent = endpoint
@@ -33,6 +44,7 @@ async function sendViaWorker(result) {
   if (!endpoint) return false;
   try {
     const data = Object.fromEntries(new FormData(form));
+    const token = turnstileWidgetId !== null ? window.turnstile?.getResponse(turnstileWidgetId) || '' : '';
     const response = await fetch(endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -40,7 +52,8 @@ async function sendViaWorker(result) {
         subject: result.subject,
         body: result.body,
         from_name: data.name?.trim() || '',
-        from_email: data.email?.trim() || ''
+        from_email: data.email?.trim() || '',
+        turnstile_token: token
       })
     });
     if (!response.ok) return false;
@@ -48,6 +61,8 @@ async function sendViaWorker(result) {
     return payload?.success === true;
   } catch {
     return false;
+  } finally {
+    if (turnstileWidgetId !== null) window.turnstile?.reset(turnstileWidgetId);
   }
 }
 document.querySelector('#preview-draft').addEventListener('click', () => {
