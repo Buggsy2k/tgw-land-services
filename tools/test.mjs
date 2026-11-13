@@ -10,9 +10,14 @@ const manifest = JSON.parse(await readFile(path.join(root, 'assets/images/manife
 async function sourceImages(dir) {
   return (await Promise.all((await readdir(dir, { withFileTypes: true })).map(e => e.isDirectory() ? sourceImages(path.join(dir, e.name)) : /\.(jpe?g|png)$/i.test(e.name) ? [path.join(dir, e.name)] : []))).flat();
 }
-assert.equal(manifest.length, (await sourceImages('../images')).length);
-assert.equal(new Set(manifest.map(p => p.source.split('/')[0])).size, 4);
+const sourceFiles = await sourceImages('../images');
+assert.equal(manifest.length, sourceFiles.length);
+assert.equal(
+  new Set(manifest.map(p => p.source.split('/')[0])).size,
+  new Set(sourceFiles.map(f => path.relative('../images', f).replaceAll('\\', '/').split('/')[0])).size
+);
 assert.equal(new Set(manifest.map(p => p.id)).size, manifest.length);
+const categoryCount = category => manifest.filter(p => p.category === category).length;
 for (const photo of manifest) {
   assert.ok((await stat(path.join(root,photo.src))).size > 0);
   assert.ok((await stat(path.join(root,photo.thumb))).size > 0);
@@ -86,20 +91,20 @@ assert.equal(await page.locator('.gallery-item:visible').count(), 12);
 await page.getByRole('button', { name: 'Load more photographs' }).click();
 assert.equal(await page.locator('.gallery-item:visible').count(), 24);
 await page.getByRole('button', { name: 'Fencing', exact: true }).click();
-assert.equal(await page.locator('.gallery-item:visible').count(), 9);
+assert.equal(await page.locator('.gallery-item:visible').count(), categoryCount('Fencing'));
 await page.locator('.gallery-item:visible').first().click();
 assert.ok(await page.locator('dialog').isVisible());
 await page.keyboard.press('ArrowRight');
-assert.equal(await page.locator('#photo-position').textContent(), '2 / 9');
+assert.equal(await page.locator('#photo-position').textContent(), `2 / ${categoryCount('Fencing')}`);
 await page.keyboard.press('Tab');
 assert.ok(await page.evaluate(() => !!document.activeElement.closest('dialog')), 'Modal contains keyboard focus');
 await page.keyboard.press('Escape');
 assert.ok(!await page.locator('dialog').isVisible());
 assert.ok(await page.locator('.gallery-item').first().evaluate(el => el === document.activeElement));
 await page.getByRole('button', { name: 'Clearing & Mulching', exact: true }).click();
-assert.ok((await page.locator('#gallery-count').textContent()).includes('21 photographs'));
+assert.ok((await page.locator('#gallery-count').textContent()).includes(`${categoryCount('Clearing & Mulching')} photographs`));
 await page.getByRole('button', { name: 'Project Work', exact: true }).click();
-assert.ok((await page.locator('#gallery-count').textContent()).includes('55 photographs'));
+assert.ok((await page.locator('#gallery-count').textContent()).includes(`${categoryCount('Project Work')} photographs`));
 
 async function fillForm(p) {
   await p.locator('[name=name]').fill("O’Brien & Sons");
