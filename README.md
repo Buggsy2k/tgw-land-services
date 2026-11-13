@@ -18,6 +18,21 @@ Upload **the contents of [site](site)** to any static hosting service. The five 
 
 The generated pages can also be opened locally, though clipboard behavior and some browser features work better on localhost or HTTPS. There is no client-side router or hosting rewrite requirement.
 
+## Hosting & email delivery (Cloudflare)
+
+The live site is hosted on **Cloudflare Workers static assets** and auto-deploys from the `main`
+branch of `github.com/Buggsy2k/tgw-land-services` on every push (`wrangler.jsonc` at the repo root).
+`npm run publish` builds, commits, and pushes in one step. `npm run deploy` instead copies the built
+`site/` to the local `W:\TGWLS` share (changed files only).
+
+The contact form now sends email directly through a separate Cloudflare Worker
+(`contact-form-worker/`), protected by **Cloudflare Turnstile**. On submit it POSTs to `/api/contact`;
+if the Worker, Turnstile, or network is unavailable, the form **falls back to the original
+email-app (mailto) draft** described above — so it degrades gracefully and never reports a false
+delivery. The Worker is deployed independently (`cd contact-form-worker && npx wrangler deploy`);
+pushing the repo does **not** redeploy it. See [.github/copilot-instructions.md](.github/copilot-instructions.md)
+for account IDs, the Turnstile sitekey, secret handling, and health checks.
+
 ## Contact details — required before launch
 
 Edit [assets/js/contact-config.js](assets/js/contact-config.js), replacing empty values with verified company email, phone, service area, and optional address; then rebuild. Keep unknown values empty. A verified email enables **Open email app**. Phone and email links appear only when configured. No fictitious contact information is published.
